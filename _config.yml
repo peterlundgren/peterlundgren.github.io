@@ -13,7 +13,7 @@ future: true
 lsi: false  # GitHub overrides this to false
 pygments: true  # GitHub overrides this to true
 markdown: maruku
-permalink: date
+permalink: /blog/:title
 
 maruku:
   use_tex: false
