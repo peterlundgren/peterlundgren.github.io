@@ -1,5 +1,5 @@
-peterlundgren.com
-=================
+www.peterlundgren.com
+=====================
 
 This repository contains the source for my personal site at
-<http://peterlundgren.com>.
+<http://www.peterlundgren.com>.
