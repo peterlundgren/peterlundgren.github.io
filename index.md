@@ -4,5 +4,5 @@ title: Peter Lundgren
 ---
 
 {% include posts.html %}
-
-You can reach me at peter@peterlundgren.com
+{% include projects.html %}
+{% include aliases.html %}
