@@ -1,0 +1,94 @@
+/* Global styles for peterlundgren.com
+ *
+ * Color scheme is solarized[1] light.
+ *
+ *   [1]: http://ethanschoonover.com/solarized
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #268bd2;
+}
+
+a:hover {
+  background-color: #eee8d5;
+}
+
+a:visited {
+  color: #6c71c4;
+}
+
+body {
+  background-color: #fdf6e3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #b58900;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 2em auto 1em auto;
+}
+
+p {
+  margin: 1em 0;
+}
+
+p.date {
+  color: #93a1a1;
+}
+
+pre {
+  background-color: #eee8d5;
+  font-family: monospace;
+  padding: 1em;
+}
+
+strong {
+  color: #586e75;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#all {
+  color: #657b83;
+  font-family: helvetica, arial, clean, sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+  text-align: justify;
+  width: 40em;
+}
+
+#footer {
+  border-top: 0.3em solid #eee8d5;
+  color: #93a1a1;
+  font-size: 80%;
+  margin: 2em 0;
+  padding: 1em 0;
+}
+
+#header {
+  margin: 3em auto 2em auto;
+}
+
+#header h1 a {
+  color: #cb4b16;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: #ff5e99;
+  color: white;
+  text-decoration-color: white;
+}
+
+::-moz-selection {
+  background-color: #ff5e99;
+  color: white;
+  text-decoration-color: white;
+}

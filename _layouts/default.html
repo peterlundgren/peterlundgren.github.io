@@ -3,17 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/global.css">
   </head>
   <body>
-    <div id="header">
-      <h1><a href="/">{{ page.title }}</a></h1>
-    </div>
-    <div id="content">
-      {{ content }}
-    </div>
-    <div id="footer">
-      Peter Lundgren<br>
-      peter@peterlundgren.com
+    <div id="all">
+      <div id="header">
+        <h1><a href="/">Peter Lundgren</a></h1>
+      </div>
+      <div id="content">
+        {% comment %} page.date is used as a sentinel to find out if we are
+        rendering a post {% endcomment %}
+        {% if page.date %}
+          <h1>{{ page.title }}</h1>
+          <p class="date">{{ page.date | date_to_string }}</p>
+        {% endif %}
+        {{ content }}
+      </div>
+      <div id="footer">
+        Peter Lundgren<br>
+        peter@peterlundgren.com
+      </div>
     </div>
   </body>
 </html>
