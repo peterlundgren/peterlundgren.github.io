@@ -52,7 +52,12 @@ strong {
 }
 
 ul {
+  margin-left: 40px;
+}
+
+#aliases ul, #posts ul, #projects ul {
   list-style-type: none;
+  margin-left: 0;
 }
 
 #all {
