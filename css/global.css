@@ -79,8 +79,9 @@ ul {
   font-family: helvetica, arial, clean, sans-serif;
   line-height: 1.5;
   margin: 0 auto;
+  max-width: 40em;
+  padding: 1em;
   text-align: justify;
-  width: 40em;
 }
 
 #footer {
