@@ -56,7 +56,7 @@ p {
 }
 
 ul {
-  margin-left: 40px;
+  margin-left: 1em;
 }
 
 #aliases ul, #posts ul, #projects ul {
