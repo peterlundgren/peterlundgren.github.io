@@ -1,6 +1,6 @@
 /* Global styles for peterlundgren.com
  *
- * Color scheme is solarized[1] light.
+ * Color scheme contains some solarized[1].
  *
  *   [1]: http://ethanschoonover.com/solarized
  */
@@ -15,7 +15,7 @@ a {
 }
 
 a:hover {
-  background-color: #eee8d5;
+  background-color: #f7f7f7;
 }
 
 a:visited {
@@ -23,8 +23,11 @@ a:visited {
 }
 
 blockquote {
-  background-color: #eee8d5;
+  background-color: #f7f7f7;
   font-style: italic;
+}
+
+blockquote, pre {
   padding: 1em;
 }
 
@@ -36,8 +39,9 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
-body {
-  background-color: #fdf6e3;
+code, pre {
+  background-color: #f7f7f7;
+  font-family: monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,16 +55,6 @@ p {
   margin: 1em 0;
 }
 
-pre {
-  background-color: #eee8d5;
-  font-family: monospace;
-  padding: 1em;
-}
-
-strong {
-  color: #586e75;
-}
-
 ul {
   margin-left: 40px;
 }
@@ -71,7 +65,6 @@ ul {
 }
 
 #all {
-  color: #657b83;
   font-family: helvetica, arial, clean, sans-serif;
   line-height: 1.5;
   margin: 0 auto;
@@ -81,8 +74,8 @@ ul {
 }
 
 #footer {
-  border-top: 0.3em solid #eee8d5;
-  color: #93a1a1;
+  border-top: 0.3em solid #f7f7f7;
+  color: #999;
   font-size: 80%;
   margin: 2em 0;
   padding: 1em 0;
@@ -98,7 +91,7 @@ ul {
 }
 
 .date {
-  color: #93a1a1;
+  color: #999;
   font-family: monospace;
 }
 
