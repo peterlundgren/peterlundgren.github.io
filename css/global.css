@@ -51,10 +51,6 @@ p {
   margin: 1em 0;
 }
 
-p.date {
-  color: #93a1a1;
-}
-
 pre {
   background-color: #eee8d5;
   font-family: monospace;
@@ -99,6 +95,11 @@ ul {
 #header h1 a {
   color: #cb4b16;
   text-decoration: none;
+}
+
+.date {
+  color: #93a1a1;
+  font-family: monospace;
 }
 
 ::selection {
