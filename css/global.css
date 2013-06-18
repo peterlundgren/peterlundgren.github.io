@@ -12,10 +12,11 @@
 
 a {
   color: #268bd2;
+  text-decoration: none;
 }
 
 a:hover {
-  background-color: #f7f7f7;
+  text-decoration: underline;
 }
 
 a:visited {
