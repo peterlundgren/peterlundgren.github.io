@@ -90,6 +90,15 @@ ul {
   text-decoration: none;
 }
 
+#projects li {
+  margin-top: 1em;
+}
+
+#projects .project {
+  display: block;
+  font-weight: bold;
+}
+
 .date {
   color: #999;
   font-family: monospace;
