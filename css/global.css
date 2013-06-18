@@ -71,7 +71,6 @@ ul {
   margin: 0 auto;
   max-width: 40em;
   padding: 1em;
-  text-align: justify;
 }
 
 #footer {
@@ -103,6 +102,10 @@ ul {
 .date {
   color: #999;
   font-family: monospace;
+}
+
+.post {
+  text-align: justify;
 }
 
 ::selection {
