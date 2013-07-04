@@ -90,6 +90,10 @@ ul {
   text-decoration: none;
 }
 
+#posts .date:after {
+  content: "\00B7";
+}
+
 #projects li {
   margin-top: 1em;
 }
