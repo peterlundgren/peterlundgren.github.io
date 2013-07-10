@@ -272,7 +272,7 @@ Finally, here are a couple of minor points that deserve mention.
 *   **Large Files** - [git-annex][] and [git-bigfiles][] are two efforts to try
     and deal with problems related to large files in Git.
 
-*   **Empty Directoryes** - Git doesn't support empty directories. The standard
+*   **Empty Directories** - Git doesn't support empty directories. The standard
     [work-around][] is to add an empty `.gitignore` to the directory and commit
     that instead.
 
